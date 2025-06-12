@@ -13,9 +13,9 @@ import { getGithubStats } from '../utils/github.js';
 const userData = {
   name: 'Jonny Møbjerg',
   title: 'PHP / JS / WP Dev | Systems, APIs, UI/UX nerd',
-  email: 'jonnymoebjerg@gmail.com',
+  email: 'jom@vardemuseerne.dk',
   website: 'https://jonnymoebjerg.com',
-  github: 'https://github.com/jonnymoebjerg',
+  github: 'https://github.com/mobjerg',
   projects: [
     { name: 'CodeToolery – Dev tools for CSS/HTML', url: 'https://codetoolery.com' },
     { name: 'Keeya – Steam key e-commerce platform', url: 'https://keeya.gg' },

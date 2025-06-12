@@ -1,7 +1,7 @@
 {
-  "name": "jonnymoebjerg-cli",
+  "name": "devfolio-cli",
   "version": "1.0.0",
-  "description": "CLI Portfolio for Jonny Møbjerg",
+  "description": "Interactive CLI resume/portfolio template for developers",
   "bin": {
     "devfolio": "./bin/cli.js"
   },
@@ -17,6 +17,15 @@
     "figlet": "^1.5",
     "node-fetch": "^3"
   },
+  "keywords": [
+    "cli",
+    "portfolio",
+    "resume",
+    "terminal",
+    "developer",
+    "interactive",
+    "template"
+  ],
   "author": "Jonny Møbjerg",
   "license": "MIT"
 }

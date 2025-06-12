@@ -1,70 +1,61 @@
 # 🧰 devfolio-cli
 
-![npm](https://img.shields.io/npm/v/devfolio-cli?style=flat-square)
-![license](https://img.shields.io/npm/l/devfolio-cli?style=flat-square)
-
-An interactive command-line resume & portfolio template for developers. Easily customizable and publishable as your own personal `npx` card!
+An interactive terminal-based portfolio & resume CLI template for developers.
 
 ---
 
-## 🚀 Try It Instantly
+## 🚀 Quick Start
 
 ```bash
-npx jonnymoebjerg-cli
-```
-
----
-
-## ✨ Features
-
-- 🧑 About Me & Contact Info
-- 💼 Highlighted Projects with Browser Launch
-- 📄 Resume Viewer
-- 🧠 GitHub Stats via API
-- 🎮 Konami Code Easter Egg
-- 🎨 Terminal UI with Chalk, Boxen, Figlet
-
----
-
-## 📸 Preview
-
-![Preview Screenshot](preview.png)
-
----
-
-## 🛠 How to Use
-
-1. Fork this repo
-2. Edit `data/config.json` with your details
-3. Update `package.json` with your own package name and bin command
-4. Test it locally:
-
-```bash
+git clone https://github.com/yourusername/devfolio-cli.git
+cd devfolio-cli
 npm install
-npm link
-yourname
+node bin/cli.js
 ```
 
-5. Publish to npm:
+Or:
+
+```bash
+./start.sh  # Installs and links the CLI globally
+devfolio
+```
+
+---
+
+## 🔧 Customize Your Profile
+
+Edit the file:
+
+```
+data/config.json
+```
+
+Change your name, projects, website, GitHub link, etc.
+
+---
+
+## 🧑‍💻 Publish Your Own CLI
+
+To turn it into your own `npx yourname` CLI:
+
+1. Edit `package.json` → change the `name` and `bin` fields
+2. Run `npm login`
+3. Run:
 
 ```bash
 npm publish --access public
 ```
 
----
+Then people can use:
 
-## 🧑‍💻 Tech Stack
-
-- Node.js
-- Inquirer
-- Chalk
-- Boxen
-- Figlet
-- Open
-- node-fetch
+```bash
+npx yourname
+```
 
 ---
 
-## 📄 License
+## 🌱 Make It Yours
 
-MIT © [Jonny Møbjerg](https://jonnymoebjerg.com)
+Click “Use this template” at the top right of this GitHub repo to start your own!
+
+MIT © [Your Name]
