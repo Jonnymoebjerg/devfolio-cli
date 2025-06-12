@@ -10,7 +10,7 @@ An interactive command-line resume & portfolio template for developers. Easily c
 ## 🚀 Try It Instantly
 
 ```bash
-npx yourname
+npx jonnymoebjerg-cli
 ```
 
 ---
