@@ -1,7 +1,7 @@
 {
-  "name": "devfolio-cli",
+  "name": "jonnymoebjerg-cli",
   "version": "1.0.0",
-  "description": "CLI Portfolio",
+  "description": "CLI Portfolio for Jonny Møbjerg",
   "bin": {
     "devfolio": "./bin/cli.js"
   },

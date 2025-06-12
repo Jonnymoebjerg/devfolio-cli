@@ -67,4 +67,4 @@ npm publish --access public
 
 ## 📄 License
 
-MIT © [Your Name](https://yourdomain.com)
+MIT © [Jonny Møbjerg](https://jonnymoebjerg.com)
