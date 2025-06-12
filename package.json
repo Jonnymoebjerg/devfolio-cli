@@ -1,9 +1,9 @@
 {
-  "name": "jonny-cli",
+  "name": "devfolio-cli",
   "version": "1.0.0",
-  "description": "CLI Portfolio for Jonny Møbjerg",
+  "description": "CLI Portfolio",
   "bin": {
-    "jonny": "./bin/cli.js"
+    "devfolio": "./bin/cli.js"
   },
   "type": "module",
   "scripts": {

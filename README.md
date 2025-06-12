@@ -7,7 +7,7 @@ An interactive command-line resume & portfolio template for developers. Easily c
 
 ---
 
-## 🚀 Try It Instantly (Once Published)
+## 🚀 Try It Instantly
 
 ```bash
 npx yourname
