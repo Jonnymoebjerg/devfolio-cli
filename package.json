@@ -1,0 +1,22 @@
+{
+  "name": "jonny-cli",
+  "version": "1.0.0",
+  "description": "CLI Portfolio for Jonny Møbjerg",
+  "bin": {
+    "jonny": "./bin/cli.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node bin/cli.js"
+  },
+  "dependencies": {
+    "chalk": "^5",
+    "boxen": "^7",
+    "inquirer": "^9",
+    "open": "^9",
+    "figlet": "^1.5",
+    "node-fetch": "^3"
+  },
+  "author": "Jonny Møbjerg",
+  "license": "MIT"
+}
